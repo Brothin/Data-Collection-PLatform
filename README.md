@@ -13,4 +13,3 @@ Steps to run -
 4. Open Android Studio and click on "Open" button at the top right corner.
 5. Go to the specific directory where you have extracted the zip file before.
 6. Click on "Okay" to open it. Let the Gradle script finish it's execution.
-![Uploading Screenshot (121).png…]()
