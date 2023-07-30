@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#1336F3</color>
+    <color name="bluewhite">#8CC2EE</color>
+    <color name="orange">#BC9254</color>
+    <color name="hover">#FA5825</color>
+    <color name="darkblue">#0641F4</color>
+    <color name="text">#03A9F4</color>
+    <color name="lavender">#8692f7</color>
+    <color name="search">#B5BBE3</color>
+    <color name="black_shade_1">#292D36</color>
+    <color name="grey">#997FC8</color>
+    <color name="skyblue">#D703A9F4</color>
+    <color name="green">#D80AB5A5</color>
+    <color name="red">#CEE91E63</color>
+</resources>

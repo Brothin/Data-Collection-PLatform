@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    tools:context=".census_data">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fill up the following details"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nationality"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:textColor="#FFFFFF" />
+        <EditText
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:id="@+id/edit1"
+            android:textSize="20sp"
+            android:hint="Enter your nationality"
+            android:ems="10"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:textColor="#FFFFFF" />
+        <EditText
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:id="@+id/edit2"
+            android:textSize="20sp"
+            android:hint="Enter your name"
+            android:ems="10"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:textColor="#FFFFFF" />
+        <EditText
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:id="@+id/edit3"
+            android:textSize="20sp"
+            android:hint="Enter your age"
+            android:ems="10"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Religion"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:textColor="#FFFFFF" />
+        <EditText
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:id="@+id/edit4"
+            android:textSize="20sp"
+            android:hint="Enter your religion"
+            android:ems="10"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Caste"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:textColor="#FFFFFF" />
+        <EditText
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:id="@+id/edit5"
+            android:textSize="20sp"
+            android:hint="Enter your caste"
+            android:ems="10"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Occupation"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:textColor="#FFFFFF" />
+        <EditText
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:id="@+id/edit6"
+            android:textSize="20sp"
+            android:hint="Enter your occupation"
+            android:ems="10"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sex"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:textColor="#FFFFFF" />
+        <EditText
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:id="@+id/edit7"
+            android:textSize="20sp"
+            android:hint="Enter your sex"
+            android:ems="10"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disability"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:textColor="#FFFFFF" />
+        <EditText
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:id="@+id/edit8"
+            android:textSize="20sp"
+            android:hint="Enter disability or N/A"
+            android:ems="10"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mother tongue"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:textColor="#FFFFFF" />
+        <EditText
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:id="@+id/edit9"
+            android:textSize="20sp"
+            android:hint="Enter mother tongue"
+            android:ems="10"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marital status"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:textColor="#FFFFFF" />
+        <EditText
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:id="@+id/edit10"
+            android:textSize="20sp"
+            android:hint="Enter marital status"
+            android:ems="10"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="156dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_corner"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+</LinearLayout>
