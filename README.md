@@ -39,6 +39,7 @@ To improve the performance of our app, several factors need to be taken under co
 4. Scalability:- To make android app scalable, we use 2 libraries namely – i. SDP - An android lib that provides a new size unit - sdp (scalable dp). This size unit scales with the screen size. It can help Android developers with supporting multiple screens. ii. SSP - An android lib that provides a new size unit - ssp (scalable sp). This size unit scales with the screen size based on the sp size unit (for texts). It can help Android developers with supporting multiple screens.
 
 Github Link for SDP Libraray - https://github.com/intuit/sdp
+
 Github Link for SSP Libraray - https://github.com/intuit/ssp
 
 Limitations on third party like Google sheets: 
