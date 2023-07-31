@@ -42,4 +42,13 @@ Github Link for SSP Libraray - https://github.com/intuit/ssp
 
 Limitations on third party like Google sheets: 
 
-Google Spreadsheets are extremely powerful, but they do have some limitations:-  Up to 10 million cells for spreadsheets that are created in or converted to Google Sheets  40,000 new rows at a time  Maximum number of columns of 18,278 columns  Number of Tabs: 200 sheets per workbook  GoogleFinance formulas: 1,000 GoogleFinance formulas  ImportRange formulas: 50 cross-workbook reference formulas  ImportData, ImportHtml, ImportFeed, or ImportXml formulas: 50 functions for external data  Maximum string length is 50,000 characters  Sheets API has per-minute quotas, and they're refilled every minute. For example, there's a read request limit of 300 per minute per project.
+Google Spreadsheets are extremely powerful, but they do have some limitations:- 
+1. Up to 10 million cells for spreadsheets that are created in or converted to Google Sheets
+2. 40,000 new rows at a time
+3. Maximum number of columns of 18,278 columns
+4. Number of Tabs: 200 sheets per workbook
+5. GoogleFinance formulas: 1,000 GoogleFinance formulas
+6. ImportRange formulas: 50 cross-workbook reference formulas
+7. ImportData, ImportHtml, ImportFeed, or ImportXml formulas: 50 functions for external data
+8. Maximum string length is 50,000 characters
+9. Sheets API has per-minute quotas, and they're refilled every minute. For example, there's a read request limit of 300 per minute per project.
